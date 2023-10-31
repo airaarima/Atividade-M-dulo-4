@@ -12,9 +12,67 @@
             integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
             crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="css/cadastro.css"/>
     <link rel="shortcut icon" href="assets/imgs/favicon.ico" type="image/x-icon" />
 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+
+        main{
+            width: 700px;
+            margin: auto;
+            padding: 30px;
+        }
+
+
+        h2{
+            color: rgb(54, 101, 70);
+            text-align: center;
+        }
+
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+
+        .btn{
+            background-color: rgb(54, 101, 70);
+            color: white;
+            padding: 5px 50px 5px 50px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            border: 0px;
+        }
+
+        .divLogin{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0px 0px 20px 0px;
+        }
+
+        .divLogin>p{
+            margin:0px;
+        }
+
+        .divButton{
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        @media(max-width: 750px){
+            main{
+                width: 100%;
+            }
+        }
+    </style>
     <title>Cadastrar Usuario</title>
 </head>
 <body>
